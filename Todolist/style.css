@@ -1,0 +1,102 @@
+.styleUl{
+    list-style: none;
+    background-color: #f1f1f1;
+    padding: 0;
+    width: 500px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.styleUl li:nth-child(even){
+    background-color: rgb(177, 184, 184);
+    border: 1px dotted #333;
+    color: white;
+    padding: 5px;
+}
+
+.styleUl li:nth-child(odd){
+    background-color: rgb(99, 122, 122);
+    border: 1px dotted #333;
+    color: white;
+    padding: 5px;
+}
+
+.styleUl li{
+    position: relative;
+}
+
+#new-item{
+    outline: none;
+   border: none;
+   padding: 5px;
+   color: white;
+   background-color: teal;
+}
+#text-value{
+    padding: 5px;
+}
+
+.fa-trash-alt{
+    cursor: pointer;
+    float: right;
+}
+
+.fa-backspace:hover{
+    color: red;
+}
+
+.fa-pencil-alt{
+    cursor: pointer;
+   position: absolute;
+
+   right: 30px;
+    
+}
+
+.editInput{
+    display: block;
+    margin: 10px 0;
+
+}
+
+#edit-item{
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: teal;
+}
+
+#text-value-edit{
+    padding: 5px;
+}
+
+#edit{
+    display: block;
+}
+
+#button-save{
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: white;
+    background-color: teal;
+}
+
+#editItem{
+    padding: 5px;
+}
+
+.bg_todo{
+    background-image: url('bg_todo.jpg');
+    background-size: cover;
+    
+}
+
+.text-color{
+    color: aliceblue;
+}
+body {
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 700ms ease;
+}
+

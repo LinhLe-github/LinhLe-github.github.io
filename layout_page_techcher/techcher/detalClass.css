@@ -1,0 +1,78 @@
+.hamberger{
+    display: none;
+}
+
+nav.main-menu{
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    z-index: 99;
+}
+@media screen and (max-width: 900px){
+        /* .main-menu{
+            display: flex;
+            justify-content: space-between;
+        } */
+        .overlay{
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 999;
+            opacity: 0.5;
+            display: none;
+            
+        }
+        .overlay.hide{
+            display: block;
+            
+        }
+        .menu-left{
+            background-color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 30%;
+            height: 100vh;
+            
+                
+            z-index: 9999 ;
+            transform: translate(-100%);
+            transition: 0.4s;
+            
+        }
+        .menu-left > ul >li >a{
+            color: black;
+        }
+        .menu-left.show{
+            
+            transform: translate(0);
+            
+        }
+
+        .menu-left ul{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-menu{
+            position: absolute;
+            right: 0;
+        }
+        
+        .hamberger{
+            display: block;
+            position: absolute;
+            font-size: 23px;
+            color: white;
+            left: 16px;
+            cursor: pointer;
+            
+            
+        }
+
+        
+}
+

@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./image/andrew-ridley-76547-unsplash.jpg'); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#container{
+    margin-top: -50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(241, 218, 7);
+}
+#button{
+    
+   
+   margin-top: 10px;
+}
+
+.but{
+border-radius: 15px;
+border: none;
+width: 400px;
+height: 50px;
+font-size: 18px;
+display: block;
+
+margin: 10px auto;
+background-color: aqua;
+opacity: 0.6;
+cursor: pointer;
+}
+.but:hover{
+    background-color: #f4f4f4;
+    opacity: 0.6;
+}
+#cauhoi{
+    cursor: default;
+    width: 600px;
+    height: 150px;
+    font-size: 22px;
+}
+#cauhoi:hover{
+    background-color: aqua;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: rgb(234, 238, 214);
+    text-align: center;
+}
+
+#changetheme{
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    color: #f4f4f4;
+    background-color: rgb(9, 116, 44);
+   
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}

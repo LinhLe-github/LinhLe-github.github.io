@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.container{
+    background-color: azure;
+    height: 100vh;
+    padding: 1em;
+}

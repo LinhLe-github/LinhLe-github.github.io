@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <div class="container ">
+        
+        <h1>Trang Thêm Học Viên</h1>
+        <form>
+
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" name="name" class="form-control" value="Paresh" required="">
+            </div>
+
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="text" name="email" class="form-control" value="paresh@gmail.com" required="">
+            </div>
+
+            <button type="submit" class="btn btn-success save-btn">Save</button>
+
+        </form>
+
+        <br />
+        <table class="table table-bordered data-table">
+            <thead>
+                <th>Name</th>
+                <th>Email</th>
+                <th width="200px">Action</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="jquery.js">
+    </script>
+    
+</body>
+
+</html>
